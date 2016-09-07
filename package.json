@@ -6,7 +6,7 @@
     "natural language"
   ],
   "scripts": {
-    "test": "vows"
+    "start": "node index.js"
   },
   "license": "MIT",
   "author": "Nate Hunzaker <nate.hunzaker@gmail.com>",
