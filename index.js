@@ -17,3 +17,5 @@ module.exports = {
     classify  : require("./lib/classify"),
     closest   : require("./lib/levenshtein")
 };
+
+console.log('yo');
