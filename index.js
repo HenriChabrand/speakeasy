@@ -1,4 +1,4 @@
-var speak = require("./speakeasy-nlp");
+var speak = require("speakeasy-nlp");
 
 const express = require('express');
 const bodyParser = require('body-parser');
