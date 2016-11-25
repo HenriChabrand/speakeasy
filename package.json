@@ -1,10 +1,8 @@
 {
-  "name": "speakeasy-nlp",
-  "description": "A simple natural language processor for node javascript.",
-  "homepage": "http://www.github.com/nhunzaker/speakeasy",
-  "keywords": [
-    "natural language"
-  ],
+  "name": "testHeroku",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
@@ -12,20 +10,18 @@
     "express": "~4.10.2",
     "body-parser": "~1.9.2",
     "request": "^2.71.0",
-    "speakeasy-nlp":"*"
+    "speakeasy-nlp":"*" : "*"
   },
-  "license": "MIT",
-  "author": "Nate Hunzaker <nate.hunzaker@gmail.com>",
+  "engines": {
+    "node": "4.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nhunzaker/speakeasy.git"
+    "url": "https://github.com/HenriChabrand/testHeroku"
   },
-  "main": "index.js",
-  "version": "0.2.11",
-  "dependencies": {
-    "speakeasy-nlp": "*"
-  },
-  "devDependencies": {
-    "vows": "~0.8"
-  }
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
